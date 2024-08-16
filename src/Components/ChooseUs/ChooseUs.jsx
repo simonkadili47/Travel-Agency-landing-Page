@@ -1,7 +1,10 @@
 import React from 'react'
-import icon1 from '../ChooseUs/icon1.png'
-import icon2 from '../ChooseUs/icon2.png'
-import icon3 from '../ChooseUs/icon3.png'
+
+import icon1 from 'Components/ChooseUs/icon1.png';
+import icon2 from 'Components/ChooseUs/icon2.png';
+import icon3 from 'Components/ChooseUs/icon3.png';
+
+
 
 function ChooseUs() {
   return (
