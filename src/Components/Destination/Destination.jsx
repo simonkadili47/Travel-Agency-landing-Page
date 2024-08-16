@@ -1,12 +1,12 @@
 import React from 'react';
-import image_1 from '../Destination/image1.png';
-import image_2 from '../Destination/image2.png';
-import image_3 from '../Destination/image3.png';
-import image_4 from '../Destination/image4.png';
-import image_5 from '../Destination/image5.png'
-import image_6 from '../Destination/image6.png'
-import image_7 from '../Destination/image7.png'
-import image_8 from '../Destination/image8.png'
+import image_1 from '../Destination/image1.webp';
+import image_2 from '../Destination/image2.webp';
+import image_3 from '../Destination/image3.webp';
+import image_4 from '../Destination/image4.webp';
+import image_5 from '../Destination/image5.webp'
+import image_6 from '../Destination/image6.webp'
+import image_7 from '../Destination/image7.webp'
+import image_8 from '../Destination/image8.webp'
 
 import { FaMapMarkerAlt, FaStar, FaArrowRight } from 'react-icons/fa';
 

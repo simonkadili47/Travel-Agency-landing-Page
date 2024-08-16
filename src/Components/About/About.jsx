@@ -1,5 +1,5 @@
 import React from 'react';
-import vacation_image from '../About/vacation2.png';
+import vacation_image from '../About/vacation2.webp';
 
 function About() {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import vacation_image from '../../Components/HeroArea/vacation3.png';
+import vacation_image from '../../Components/HeroArea/vacation3.webp';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { FaSearch, FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa';
