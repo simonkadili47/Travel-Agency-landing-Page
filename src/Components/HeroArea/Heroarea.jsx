@@ -4,7 +4,7 @@ import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { FaSearch, FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa';
 import { IoIosPeople } from "react-icons/io";
-import { MdPlayCircle } from "react-icons/md";
+
 
 function Heroarea() {
   const [startDate, setStartDate] = React.useState(null);
