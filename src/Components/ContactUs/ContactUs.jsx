@@ -21,7 +21,7 @@ function ContactUs() {
         <p className='text-4xl text-left ml-28 text-orange-500'>“</p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-2'>
-        <div className='border-2 p-4 text-gray-400 bg-white'>
+        <div className='border-2 p-4 text-gray-400 bg-white rounded-lg'>
           <p>Wow, what a fun vacation with</p>
           <p>Oelinken, guided by professional</p>
           <p>people</p>
@@ -34,7 +34,7 @@ function ContactUs() {
             <FaStar className='text-gray-300' />
           </div>
         </div>
-        <div className='border-2 p-4 text-gray-400 bg-white'>
+        <div className='border-2 p-4 text-gray-400 bg-white rounded-lg'>
           <p>Wow, what a fun vacation with</p>
           <p>Oelinken, guided by professional</p>
           <p>people</p>
@@ -47,7 +47,7 @@ function ContactUs() {
             <FaStar className='text-gray-300' />
           </div>
         </div>
-        <div className='border-2 p-4 text-gray-400 bg-white'>
+        <div className='border-2 p-4 text-gray-400 bg-white rounded-lg'>
           <p>Wow, what a fun vacation with</p>
           <p>Oelinken, guided by professional</p>
           <p>people</p>
@@ -60,7 +60,7 @@ function ContactUs() {
             <FaStar className='text-gray-300' />
           </div>
         </div>
-        <div className='border-2 p-4 text-gray-400 bg-white'>
+        <div className='border-2 p-4 text-gray-400 bg-white rounded-lg'>
           <p>Wow, what a fun vacation with</p>
           <p>Oelinken, guided by professional</p>
           <p>people</p>

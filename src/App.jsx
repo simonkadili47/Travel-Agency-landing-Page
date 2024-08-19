@@ -7,6 +7,7 @@ import ChooseUs from './Components/ChooseUs/ChooseUs'
 import VideoPreview from './Components/VideoPreview/VideoPreview'
 import ContactUs from './Components/ContactUs/ContactUs'
 import Blog from './Components/Blog/Blog'
+import Sponsor from './Components/Sponsor/Sponsor'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <VideoPreview/>
       <ContactUs/>
       <Blog/>
+      <Sponsor/>
     </div>
   )
 }
