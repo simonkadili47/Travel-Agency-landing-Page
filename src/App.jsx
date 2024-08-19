@@ -4,6 +4,8 @@ import Heroarea from './Components/HeroArea/Heroarea'
 import About from './Components/About/About'
 import Destination from './Components/Destination/Destination'
 import ChooseUs from './Components/ChooseUs/ChooseUs'
+import VideoPreview from './Components/VideoPreview/VideoPreview'
+import ContactUs from './Components/ContactUs/ContactUs'
 
 
 function App() {
@@ -14,7 +16,8 @@ function App() {
       <About/>
       <Destination/>
       <ChooseUs/>
-      
+      <VideoPreview/>
+      <ContactUs/>
     </div>
   )
 }

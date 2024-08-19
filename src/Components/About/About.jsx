@@ -1,6 +1,7 @@
 import React from 'react';
 import vacation_image from '../About/vacation2.webp';
 
+
 function About() {
   return (
     <div className='bg-[#F7F8FC] py-8 px-8 md:px-20 mt-8 mr-24 pb-2'>
