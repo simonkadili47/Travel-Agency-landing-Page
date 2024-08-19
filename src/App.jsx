@@ -6,6 +6,7 @@ import Destination from './Components/Destination/Destination'
 import ChooseUs from './Components/ChooseUs/ChooseUs'
 import VideoPreview from './Components/VideoPreview/VideoPreview'
 import ContactUs from './Components/ContactUs/ContactUs'
+import Blog from './Components/Blog/Blog'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <ChooseUs/>
       <VideoPreview/>
       <ContactUs/>
+      <Blog/>
     </div>
   )
 }
