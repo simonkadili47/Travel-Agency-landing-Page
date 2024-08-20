@@ -8,6 +8,7 @@ import VideoPreview from './Components/VideoPreview/VideoPreview'
 import ContactUs from './Components/ContactUs/ContactUs'
 import Blog from './Components/Blog/Blog'
 import Sponsor from './Components/Sponsor/Sponsor'
+import Footer from './Components/Footer/Footer'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <ContactUs/>
       <Blog/>
       <Sponsor/>
+      <Footer/>
     </div>
   )
 }
