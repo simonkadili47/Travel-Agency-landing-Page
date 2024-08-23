@@ -18,7 +18,7 @@ function Heroarea() {
             <h1 className='font-bold text-3xl md:text-4xl text-orange-500'>Explore</h1>
           </div>
           <div className='mt-4 md:mt-0 md:ml-10 w-full max-w-md px-4'>
-            <p className='text-center md:text-left'>
+            <p className='text-center md:text-left whitespace-nowrap animate-slide-left'>
               Time tracking software used by millions. A simple time tracker and timesheet app that lets you track work hours across projects.
             </p>
             <div className='mt-4 text-center md:text-left'>
@@ -94,13 +94,7 @@ function Heroarea() {
                   </div>
                 </div>
               </div>
-              <div className='relative mt-8'>
-                <div className='overflow-hidden relative bg-gray-100 p-4'>
-                  <p className='whitespace-nowrap animate-slide-left'>
-                    Time tracking software used by millions. A simple time tracker and timesheet app that lets you track work hours across projects.
-                  </p>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
