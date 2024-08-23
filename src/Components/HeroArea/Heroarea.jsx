@@ -3,8 +3,7 @@ import vacation_image from '../../Components/HeroArea/vacation3.webp';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 import { FaSearch, FaMapMarkerAlt, FaCalendarAlt } from 'react-icons/fa';
-import { IoIosPeople } from "react-icons/io";
-
+import { IoIosPeople } from 'react-icons/io';
 
 function Heroarea() {
   const [startDate, setStartDate] = React.useState(null);
@@ -12,33 +11,32 @@ function Heroarea() {
   return (
     <div className='flex flex-col items-center pt-4'>
       <div className='w-full'>
-        <div className='flex flex-col md:flex-row items-start justify-between px-8 pl-32'>
-          <div>
-            <h1 className='font-bold text-3xl'>It’s a Big World</h1>
-            <h1 className='font-bold text-3xl'>Out There, Go</h1>
-            <h1 className='font-bold text-3xl text-orange-500'>Explore</h1>
+        <div className='flex flex-col md:flex-row items-start justify-between px-8 md:px-16'>
+          <div className='text-center md:text-left'>
+            <h1 className='font-bold text-3xl md:text-4xl'>It’s a Big World</h1>
+            <h1 className='font-bold text-3xl md:text-4xl'>Out There, Go</h1>
+            <h1 className='font-bold text-3xl md:text-4xl text-orange-500'>Explore</h1>
           </div>
-          <div className='mt-4 md:mt-0 md:ml-20 w-full max-w-md pr-28'>
-            <p className='break-words'>
+          <div className='mt-4 md:mt-0 md:ml-10 w-full max-w-md px-4'>
+            <p className='text-center md:text-left'>
               Time tracking software used by millions. A simple time tracker and timesheet app that lets you track work hours across projects.
             </p>
-            <div className='mt-4'>
-              <button className='bg-orange-500 text-white text-sm py-2 px-4 rounded-sm hover:bg-orange-600 transition duration-300'>
+            <div className='mt-4 text-center md:text-left'>
+              <button className='bg-orange-500 text-white text-sm py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300'>
                 DISCOVER NOW
               </button>
             </div>
           </div>
         </div>
-        <div className='relative mt-8 w-full px-10 md:px-20 pb-14'>
-          <div className='relative'>
-            <img
-              src={vacation_image}
-              alt="Vacation"
-              className='w-full h-auto object-cover'
-            />
-            {/* <MdPlayCircle className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-orange-500 text-6xl' /> */}
-            <div className='absolute -bottom-16 left-0  right-0 px-8 py-6 mx-5 '>
-              <div className='w-full bg-white shadow-lg px-8 py-6 rounded-lg'>
+        <div className='relative mt-8 w-full px-4 md:px-8 lg:px-16'>
+          <img
+            src={vacation_image}
+            alt="Vacation"
+            className='w-full h-auto object-cover rounded-lg'
+          />
+          <div className='relative mt-8'>
+            <div className='px-4 md:px-8 lg:px-16 pb-14'>
+              <div className='relative overflow-hidden'>
                 <div className='flex flex-col md:flex-row items-center justify-between gap-4'>
                   <div className='w-full md:w-1/5 mb-4 md:mb-0'>
                     <label className='block text-sm font-medium text-gray-700'>From</label>
@@ -89,10 +87,18 @@ function Heroarea() {
                     </div>
                   </div>
                   <div className='w-full md:w-1/5 flex items-center'>
-                    <button className='bg-orange-500 text-white py-2 px-3 mt-3 rounded-sm hover:bg-orange-600 transition duration-300 flex items-center'>
+                    <button className='bg-orange-500 text-white py-2 px-3 rounded-sm hover:bg-orange-600 transition duration-300 flex items-center'>
                       <FaSearch className='mr-2' />
+                      Search
                     </button>
                   </div>
+                </div>
+              </div>
+              <div className='relative mt-8'>
+                <div className='overflow-hidden relative bg-gray-100 p-4'>
+                  <p className='whitespace-nowrap animate-slide-left'>
+                    Time tracking software used by millions. A simple time tracker and timesheet app that lets you track work hours across projects.
+                  </p>
                 </div>
               </div>
             </div>

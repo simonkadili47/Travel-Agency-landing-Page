@@ -4,7 +4,7 @@ import { FaStar } from 'react-icons/fa'; // Importing the star icon
 
 function ContactUs() {
   return (
-    <div className='flex flex-col items-center justify-center -mt-20'>
+    <div className='flex flex-col items-center  mt-16 justify-center '>
       <div className='text-center'>
         <h1 className='text-3xl font-bold'>Contact Us To Review</h1>
         <p className='font-bold text-3xl'>

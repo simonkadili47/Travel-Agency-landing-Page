@@ -5,15 +5,17 @@ import video_3 from '../VideoPreview/video 3.webp';
 
 function VideoPreview() {
   return (
-    <div className='flex pt-10 pl-28 justify-center mr-44 pb-0'> {/* Changed pb-2 to pb-0 */}
-      <div className='w-52 h-56 object-cover pt-8'>
-        <img src={video_2} alt="" />
-      </div>
-      <div className='w-96 h-96 object-cover pl-5 pt-5'>
-        <img src={video_1} alt="" />
-      </div>
-      <div className='w-60 h-60 object-cover pt-8 pl-5'>
-        <img src={video_3} alt="" />
+    <div className='py-8 px-4 md:px-8'>
+      <div className='flex flex-col md:flex-row justify-center gap-4'>
+        <div className='w-full md:w-52 h-36 md:h-56'>
+          <img src={video_2} alt="Video Preview 2" className='w-full h-full object-cover rounded-md' />
+        </div>
+        <div className='w-full md:w-80 h-48 md:h-96'>
+          <img src={video_1} alt="Video Preview 1" className='w-full h-full object-cover rounded-md' />
+        </div>
+        <div className='w-full md:w-60 h-36 md:h-60'>
+          <img src={video_3} alt="Video Preview 3" className='w-full h-full object-cover rounded-md' />
+        </div>
       </div>
     </div>
   );

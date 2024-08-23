@@ -10,15 +10,17 @@ import OYO from '../Sponsor/OYO Logo.png';
 
 function Sponsor() {
   return (
-    <div className='grid grid-cols-4 gap-y-1 px-52 pt-6'>
-      <img src={Airbnb} alt="Airbnb Logo" />
-      <img src={Amazon} alt="Amazon Logo" />
-      <img src={FedEx} alt="FedEx Logo" />
-      <img src={Google} alt="Google Logo" />
-      <img src={Microsoft} alt="Microsoft Logo" />
-      <img src={OLA} alt="OLA Logo" />
-      <img src={Walmart} alt="Walmart Logo" />
-      <img src={OYO} alt="OYO Logo" />
+    <div className='px-4 md:px-8 py-6'>
+      <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4'>
+        <img src={Airbnb} alt="Airbnb Logo" className='object-contain h-12' />
+        <img src={Amazon} alt="Amazon Logo" className='object-contain h-12' />
+        <img src={FedEx} alt="FedEx Logo" className='object-contain h-12' />
+        <img src={Google} alt="Google Logo" className='object-contain h-12' />
+        <img src={Microsoft} alt="Microsoft Logo" className='object-contain h-12' />
+        <img src={OLA} alt="OLA Logo" className='object-contain h-12' />
+        <img src={Walmart} alt="Walmart Logo" className='object-contain h-12' />
+        <img src={OYO} alt="OYO Logo" className='object-contain h-12' />
+      </div>
     </div>
   );
 }

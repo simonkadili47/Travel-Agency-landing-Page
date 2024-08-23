@@ -1,66 +1,70 @@
 import React from "react";
-import { FaInstagram } from "react-icons/fa";
-
-
+import { FaInstagram, FaFacebookF, FaTwitter } from "react-icons/fa";
 
 function Footer() {
   return (
-    <div className="bg-pink-200 pl-5 py-40 pt-16 pb-2  ">
-      <div className="grid grid-cols-5 gap-4 border-b   border-gray-400 pb-24">
-        <div className="pl-12">
-          <h1>TRAVEL AGENTS</h1>
-          <div className="pt-2">
-            <p>
+    <div className="bg-pink-200 px-4 py-10">
+      <div className="border-b border-gray-400 pb-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
+          <div>
+            <h1 className="font-bold text-lg">TRAVEL AGENTS</h1>
+            <p className="mt-2 text-sm">
               We believe brand interaction is key in communication. Real
               innovations and a positive.
             </p>
-            <div className="pt-4">
-            <FaInstagram />
+            <div className="mt-4 flex space-x-4">
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className="text-2xl text-gray-700 hover:text-gray-900 transition duration-300" />
+              </a>
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                <FaFacebookF className="text-2xl text-gray-700 hover:text-gray-900 transition duration-300" />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                <FaTwitter className="text-2xl text-gray-700 hover:text-gray-900 transition duration-300" />
+              </a>
             </div>
-           
           </div>
-          <div></div>
-        </div>
-        <div className="pl-32">
-          <h1>About Us</h1>
-          <div className="pt-3 text-sm">
-            <p>Features</p>
-            <p className="pt-2">FAQ's</p>
-            <p className="pt-2">News</p>
-            <p className="pt-2">Pricing</p>
+          <div>
+            <h1 className="font-bold text-lg">About Us</h1>
+            <div className="mt-3 text-sm">
+              <p>Features</p>
+              <p className="mt-2">FAQ's</p>
+              <p className="mt-2">News</p>
+              <p className="mt-2">Pricing</p>
+            </div>
           </div>
-        </div>
-        <div className="pl-16">
-          <h1>Campany</h1>
-          <div className="pt-3 text-sm">
-            <p>Core Values</p>
-            <p className="pt-2">Patner W/ us</p>
-            <p className="pt-2">Blog</p>
-            <p className="pt-2">Contact</p>
+          <div>
+            <h1 className="font-bold text-lg">Company</h1>
+            <div className="mt-3 text-sm">
+              <p>Core Values</p>
+              <p className="mt-2">Partner W/ us</p>
+              <p className="mt-2">Blog</p>
+              <p className="mt-2">Contact</p>
+            </div>
           </div>
-        </div>
-        <div>
-          <h1>Support</h1>
-          <div className="pt-3 text-sm">
-            <p>Support centers</p>
-            <p className="pt-2">Feedback</p>
-            <p className="pt-2">Accessibility</p>
+          <div>
+            <h1 className="font-bold text-lg">Support</h1>
+            <div className="mt-3 text-sm">
+              <p>Support centers</p>
+              <p className="mt-2">Feedback</p>
+              <p className="mt-2">Accessibility</p>
+            </div>
           </div>
-        </div>
-        <div className="pr-16">
-          <h1>Get in touch</h1>
-          <div className="pt-3 text-sm">
-            <input className="p-4" type="text" placeholder="Your email here" />
-          </div>
-          <div className="pt-2 px-10">
-            <button className="bg-orange-500 text-white py-2 px-4 rounded-lg hover:bg-orange-600 transition duration-300">
+          <div>
+            <h1 className="font-bold text-lg">Get in touch</h1>
+            <input
+              className="mt-3 p-2 w-full border border-gray-300 rounded-md"
+              type="text"
+              placeholder="Your email here"
+            />
+            <button className="bg-orange-500 text-white py-2 px-4 rounded-lg mt-3 w-full hover:bg-orange-600 transition duration-300">
               <a href="">Get Access</a>
             </button>
           </div>
         </div>
       </div>
-      <div className="text-center pt-3">
-        <p>Simon kadili © 2024 All Right Reserved</p>
+      <div className="text-center mt-6">
+        <p className="text-sm text-gray-600">Simon Kadili © 2024 All Rights Reserved</p>
       </div>
     </div>
   );
